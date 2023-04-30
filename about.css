@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+h1{font-family: 'Times New Roman', Times, serif;
+    color: #354964;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 1px 2px;
+    text-align: auto;
+    }
+
+.one{padding: 15px 750px 75px 50px;
+    text-align: left;
+    margin: right 500px;
+    font-size: medium;}
+
+    
+h2{font-family: 'Times New Roman', Times, sans-serif;
+    color: #354964;
+      }
+
+pic1{
+    position: right ;
+}
+       
