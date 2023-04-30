@@ -6,9 +6,15 @@ h1{font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     text-shadow: 1px 2px;
     text-align: auto;
+    box-sizing: content-box;
+    width: 150px;
+    height: 30px;
+    padding: 20px;  
+    border: 5px solid pink;
     }
 
-.one{padding: 15px 750px 75px 50px;
+.one{box-sizing: content-box;
+    padding: 15px 750px 75px 50px;
     text-align: left;
     margin: right 400px;
     font-size: medium;}
@@ -17,6 +23,11 @@ h1{font-family: 'Times New Roman', Times, serif;
 h2{font-family: 'Times New Roman', Times, sans-serif;
     color: #354964;
     font-size: x-large;
+    box-sizing: content-box;
+    width: 200px;
+  height: 50px;
+  padding: 20px;  
+  border: 5px solid pink;
       }
 
 
