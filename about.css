@@ -4,17 +4,17 @@ body{
 }
 
 h1{font-family: 'Times New Roman', Times, serif;
-    color: #354964;
+    color: whitesmoke;
     font-size: xx-large;
     font-weight: bolder;
-    text-shadow: 1px 2px;
+    text-shadow: 1px 1px;
     text-align: auto;
     box-sizing: content-box;
     width: 150px;
-    height: 30px;
+    height: 25px;
     padding: 20px; 
     padding-left: 50px;
-    background-color: whitesmoke; 
+    background-color: grey; 
     border: 5px solid #575757;
     }
 
@@ -34,13 +34,14 @@ h1{font-family: 'Times New Roman', Times, serif;
 
     
 h2{font-family: 'Times New Roman', Times, sans-serif;
-    color: #354964;
+    color: whitesmoke;
     font-size: x-large;
+    text-shadow: 1px 1px;
     box-sizing: content-box;
     width: 200px;
   height: 50px;
   padding: 20px;  
-  background-color: whitesmoke; 
+  background-color: grey; 
   border: 5px solid #575757;
       }
 
