@@ -4,7 +4,7 @@ body{
 }
 
 h1{font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
+    color: black;
     font-size: xx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
@@ -33,17 +33,37 @@ h1{font-family: 'Times New Roman', Times, serif;
     font-size: large;}
 
     
-h2{font-family: 'Times New Roman', Times, sans-serif;
-    color: whitesmoke;
-    font-size: x-large;
-    text-shadow: 1px 1px;
-    box-sizing: content-box;
-    width: 200px;
-  height: 50px;
-  padding: 20px;  
-  background-color: grey; 
-  border: 5px solid #575757;
+.trop{font-family: 'Times New Roman', Times, sans-serif;
+    color: black;
+    font-size: xx-large;
+    padding-left: 75px;
+    padding-bottom: 30px;
       }
 
+.contact{
+  clear: left;
+  font-size: xx-large;
+  padding-left: 75px;
+}
 
+.cont{
+    box-sizing: content-box;
+    width: 700px;
+    height: 250px;
+    padding: 20px; 
+    background-color: #525558; 
+    border: 3px solid#525558 ;
+}
+.managerpic{
+    padding-left: 15px;
+    float: left;
+}
+
+.manager{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: x-large;
+    color: #d6b5ab;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
        
