@@ -7,17 +7,10 @@ body {
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
-    font-size: xx-large;
+    font-size: xxx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
-    text-align: auto;
-    box-sizing: content-box;
-    width: 150px;
-    height: 25px;
-    padding: 20px;
-    padding-left: 40px;
-    background-color: grey;
-    border: 5px solid #575757;
+    padding-left: 50%;
 }
 
 
