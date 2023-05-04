@@ -1,3 +1,12 @@
+.container {
+  border-bottom: 1px solid black;
+  max-width: 1600px;
+  min-width: 900px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -7,6 +16,14 @@
 nav {
   flex: 1;
   text-align: right;
+}
+
+nav a {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 nav ul {
@@ -20,11 +37,12 @@ nav ul li {
 }
 
 .logo a {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   color: #555;
   text-decoration: none;
+  padding: 19px;
 }
 
 a {
@@ -36,16 +54,8 @@ p {
   color: #555;
 }
 
-.container {
-  max-width: 1500px;
-  min-width: 900px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.categories {
-  margin: 30px 0;
+.container2 {
+  padding: 20px;
 }
 
 .row {
@@ -58,13 +68,18 @@ p {
 .col-3 {
   flex-basis: 18%;
   min-width: 300px;
-  margin-bottom: 30px;
+  margin: 10px;
+}
+
+.col-3-img:hover {
+  opacity: 0.5;
 }
 
 .col-3 img {
   width: 100%;
   border-radius: 5px;
 }
+
 .col-3-img {
   position: relative;
   text-align: center;
