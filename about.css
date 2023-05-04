@@ -97,3 +97,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 15px;
 }
        
+video {
+    display:block;
+    width: 40%;
+padding-left: 40px;
+ }
