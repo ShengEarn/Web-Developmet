@@ -4,7 +4,7 @@ body{
 }
 
 h1{font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: aliceblue;
     font-size: xx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
@@ -13,37 +13,59 @@ h1{font-family: 'Times New Roman', Times, serif;
     width: 150px;
     height: 25px;
     padding: 20px; 
-    padding-left: 50px;
+    padding-left: 40px;
     background-color: grey; 
     border: 5px solid #575757;
     }
 
-.abpic{
-    float: right;
-}
-
-.trophypic{
-    float: left;
-}
 
 .one{box-sizing: content-box;
     padding: 15px 750px 75px 50px;
     text-align: left;
     margin: right 400px;
-    font-size: large;}
+    font-size: large;
+}
 
     
 .trop{font-family: 'Times New Roman', Times, sans-serif;
-    color: black;
+    color: aliceblue;
     font-size: xx-large;
-    padding-left: 75px;
+    padding-right: 10px;
     padding-bottom: 30px;
+    clear: right;
+    float: right;
       }
 
+.trophypic{
+    padding-top: 80px;
+}
+.trophypic1{
+    clear: right;
+    float: right;
+    padding-right: 15px;
+}
+.trophypic2{
+    clear:right; 
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.trophypic3{
+    clear:right; 
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+
 .contact{
+color: aliceblue;
   clear: left;
   font-size: xx-large;
-  padding-left: 75px;
+  font-weight: bolder;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 400px;
 }
 
 .cont{
@@ -51,19 +73,27 @@ h1{font-family: 'Times New Roman', Times, serif;
     width: 700px;
     height: 250px;
     padding: 20px; 
-    background-color: #525558; 
-    border: 3px solid#525558 ;
+    background-color: #424a53; 
+    border-radius: 15px;
 }
 .managerpic{
     padding-left: 15px;
     float: left;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .manager{
-    padding-left: 15px;
+    padding-left: 50px;
     font-weight: bold;
     font-size: x-large;
-    color: #d6b5ab;
+    color: blanchedalmond;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.abpic3{
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 15px;
 }
        
