@@ -16,9 +16,9 @@ h1 {
 
 .one {
     box-sizing: content-box;
-    padding: 15px 750px 75px 50px;
+    padding: 15px 550px 70px 400px;
     text-align: left;
-    margin: right 400px;
+    margin: right 300px;
     font-size: large;
 }
 
@@ -60,12 +60,10 @@ h1 {
 
 .contact {
     color: aliceblue;
-    clear: left;
+    position:relative;
     font-size: xx-large;
     font-weight: bolder;
-    padding-left: 50px;
-    padding-bottom: 10px;
-    padding-top: 400px;
+    padding-left: 50%;
 }
 
 .cont {
@@ -101,5 +99,5 @@ h1 {
 video {
     display: block;
     width: 40%;
-    padding-left: 40px;
+    padding-left: 400px;
 }
