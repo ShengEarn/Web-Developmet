@@ -5,36 +5,44 @@ body {
 
 }
 
-h1 {
+.abouttitle {
     font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
     font-size: xxx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
-    padding-left: 50%;
+text-align: center;
+letter-spacing:15px;
 }
 
 
 .one {
     color: azure;
     box-sizing: content-box;
-    padding: 15px 550px 40px 400px;
+    padding: 30px 30px 30px 30px;
     text-align: left;
-    margin: right 300px;
     font-size: large;
+    width: 600px;
+    height: 150px;
+    background-color: #424a53;
+    border-radius: 20px;
 }
 
+.oneall {
+    padding-left: 250px;
+}
 
 .trop {
     font-family: 'Times New Roman', Times, sans-serif;
     color: aliceblue;
-    font-size: xx-large;
-    padding-right: 10px;
-
+    font-size: xxx-large;
+    text-align: center;
+    letter-spacing:10px;
 }
 
 .trophypic {
     padding-top: 20px;
+    padding-left: 200px;
 }
 
 .trophypic1 {
@@ -44,13 +52,12 @@ h1 {
 }
 
 .trophypic2 {
-
+    float: left;
     padding-top: 10px;
     padding-right: 15px;
 }
 
 .trophypic3 {
-
     padding-top: 10px;
     padding-right: 15px;
 }
@@ -58,11 +65,14 @@ h1 {
 
 .contact {
     color: aliceblue;
-    position:relative;
-    font-size: xx-large;
+    text-align: center;
+    font-size: xxx-large;
     font-weight: bolder;
-    padding-left: 10%;
-    padding-bottom: 10px;
+    letter-spacing:15px;
+}
+
+.contall {
+    padding-left: 400px;
 }
 
 .cont {
@@ -98,7 +108,7 @@ h1 {
 video {
     display: block;
     width: 40%;
-    padding-left: 400px;
+    padding-left: 500px;
 }
 
 .sub-nav {
@@ -117,20 +127,39 @@ video {
     padding: 5px;
 }
 
-.question{
+.question {
     color: azure;
     font-size: x-large;
 }
 
-.answer{
+.answer {
     color: antiquewhite;
 }
 
-.faquestion1{
+.faquestion1,
+.faquestion2,
+.faquestion3,
+.faquestion4,
+.faquestion5,
+.faquestion6,
+.faquestion7 {
     box-sizing: content-box;
     width: 600px;
     height: 80px;
-    padding:10px 10px 10px 10px;
+    padding: 10px 10px 10px 50px;
     background-color: #424a53;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+
+.faq {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.faqall {
+    text-align: center;
+    padding-left: 420px;
 }
