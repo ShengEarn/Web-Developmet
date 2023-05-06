@@ -16,7 +16,7 @@ h1 {
 
 .one {
     box-sizing: content-box;
-    padding: 15px 550px 70px 400px;
+    padding: 15px 550px 40px 400px;
     text-align: left;
     margin: right 300px;
     font-size: large;
@@ -28,31 +28,27 @@ h1 {
     color: aliceblue;
     font-size: xx-large;
     padding-right: 10px;
-    padding-bottom: 30px;
-    clear: right;
-    float: right;
+
 }
 
 .trophypic {
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .trophypic1 {
-    clear: right;
-    float: right;
+
+    float: left;
     padding-right: 15px;
 }
 
 .trophypic2 {
-    clear: right;
-    float: right;
+
     padding-top: 10px;
     padding-right: 15px;
 }
 
 .trophypic3 {
-    clear: right;
-    float: right;
+
     padding-top: 10px;
     padding-right: 15px;
 }
@@ -63,7 +59,8 @@ h1 {
     position:relative;
     font-size: xx-large;
     font-weight: bolder;
-    padding-left: 50%;
+    padding-left: 10%;
+    padding-bottom: 10px;
 }
 
 .cont {
@@ -100,4 +97,20 @@ video {
     display: block;
     width: 40%;
     padding-left: 400px;
+}
+
+.sub-nav {
+    background-color: #ccc;
+    display: flexbox;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+.sub-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
 }
