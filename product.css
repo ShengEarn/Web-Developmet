@@ -65,6 +65,16 @@ p {
   justify-content: space-around;
 }
 
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+
 .col-3 {
   flex-basis: 18%;
   min-width: 300px;
@@ -114,6 +124,132 @@ p {
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.container3 {
+  margin: 0 50px;
+  padding: 20px;
+}
+
+.product-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 280px;
+  transition: transform 0.5s;
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 20px;
+  height: auto;
+  width: auto;
+}
+
+.col-4 img {
+  height: 200px;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 40px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.col-4 h4 {
+  padding: 20px;
+  color: #555;
+  font-weight: normal;
+  text-align: center;
+}
+
+.col-4 p {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}
+
+/* single product details */
+.single-product{
+  margin: 40px 80px;
+}
+
+.single-product .col-2 img.main{
+  padding: 0;
+}
+
+.single-product .col-2 img{
+  padding: 0;
+}
+
+.single-product .col-2 {
+  padding: 20px;
+}
+
+.single-product p.cat {
+  font-size: 30px;
+}
+
+.single-product h1 {
+  font-size: 40px;
+}
+
+.single-product h4{
+  margin: 20px 0;
+  font-size: 35px;
+  color: #555;
+}
+
+.single-product h3{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.single-product input{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 25px;
+  margin-right: 10px;
+  border: 1px solid #ff523b;
+}
+
+input:focus{
+  outline: none;
+}
+
+.small-img-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
 }
 
 /*Footer Section*/
