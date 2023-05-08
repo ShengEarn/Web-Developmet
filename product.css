@@ -1,6 +1,5 @@
 .container {
   border-bottom: 1px solid black;
-  max-width: 1600px;
   min-width: 900px;
   margin: auto;
   padding-left: 25px;
@@ -10,7 +9,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 nav {
@@ -22,8 +21,8 @@ nav a {
   font-size: 20px;
   padding-top: 25px;
   padding-bottom: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 nav ul {
