@@ -167,3 +167,15 @@ video {
     text-align: center;
     padding-left: 420px;
 }
+
+.form{
+    display: block;
+    margin: 5px;
+    margin: 5px 0px;
+    width: 200px;
+}
+
+.formall{
+    background-color: #ccc;
+
+}

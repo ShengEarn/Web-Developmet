@@ -59,17 +59,35 @@
   <br><br><br>
 
   <form>
+    <fieldset class="formall">
+    <div class="form">
     <label for="iname">Your Name :</label><br><br>
     <input type="text" id="iname" name="name"><br><br>
+    </div>
 
+    <div class="form">
     <label for="iemail">Your Email :</label><br><br>
     <input type="text" id="iemail" name="email"><br><br>
+    </div>
 
+    <label for="iabout">About : </label>
+    <select name="inputabout" id="iabout">
+      <option value="about1">Trainer</option>
+      <option value="about2">Product</option>
+      <option value="about3">Others</option>
+    </select><br><br>
+
+    <div class="form">
     <input type="text" id="isubject" name="subject" placeholder="Subject"><br><br>
+    </div>
 
-    <input type="text" id="imessage" name="message" placeholder="Message"><br><br>
+    <div class="form">
+    <label for="imessage">Enter Your message :</label><br><br>
+    <textarea id="imessage" name="message" placeholder="Message" rows="10" cols="60"></textarea>
+    </fieldset>
 
     <p> <input type="submit" value="Submit" /></p>
+    </div>
 
   </form>
 
