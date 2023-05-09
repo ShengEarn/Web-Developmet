@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color:azure;
+    background-color: azure;
 
 }
 
@@ -11,8 +11,8 @@ body {
     font-size: xxx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
-text-align: center;
-letter-spacing:15px;
+    text-align: center;
+    letter-spacing: 15px;
 }
 
 
@@ -37,12 +37,11 @@ letter-spacing:15px;
     color: #43758f;
     font-size: xxx-large;
     text-align: center;
-    letter-spacing:10px;
+    letter-spacing: 10px;
 }
 
 .trophypic {
     padding-top: 20px;
-    padding-left: 200px;
 }
 
 .trophypic1 {
@@ -58,6 +57,18 @@ letter-spacing:15px;
 }
 
 .trophypic3 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.trophypic4 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.trophypic5 {
     padding-top: 10px;
     padding-right: 15px;
 }
@@ -68,11 +79,11 @@ letter-spacing:15px;
     text-align: center;
     font-size: xxx-large;
     font-weight: bolder;
-    letter-spacing:15px;
+    letter-spacing: 15px;
 }
 
 .contall {
-    padding-left: 400px;
+    padding-left: 200px;
 }
 
 .cont {
@@ -80,7 +91,7 @@ letter-spacing:15px;
     width: 700px;
     height: 250px;
     padding: 20px;
-    background-color:#dcc4af;
+    background-color: #dcc4af;
     border-radius: 15px;
 }
 
@@ -108,7 +119,7 @@ letter-spacing:15px;
 video {
     display: block;
     width: 40%;
-    padding-left: 500px;
+    padding-left: 350px;
 }
 
 .sub-nav {
@@ -120,7 +131,7 @@ video {
     z-index: 1;
 }
 
-.confaq{
+.confaq {
     flex-wrap: wrap;
 
 }
@@ -165,17 +176,18 @@ video {
 
 .faqall {
     text-align: center;
-    padding-left: 420px;
+    padding-left: 250px;
 }
 
-.form{
+.form {
     display: block;
     margin: 5px;
     margin: 5px 0px;
     width: 200px;
 }
 
-.formall{
+.formall {
     background-color: #ccc;
-
+    border-radius: 10px;
+    margin: 200px;
 }
