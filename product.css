@@ -241,15 +241,13 @@ input:focus {
   outline: none;
 }
 
-.small-img-row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.small-img-col {
-  flex-basis: 24%;
-  cursor: pointer;
-}
+.btn{
+  border: 2px solid ff523b;
+  border-radius: 10px;
+  background-color: #ff523b;
+  padding: 10px;
+  color: white;
+  }
 
 /*Footer Section*/
 footer {
