@@ -1,0 +1,12 @@
+img.main {
+  height: 400px;
+  width: auto;
+}
+
+.btn{
+border: 2px solid ff523b;
+border-radius: 10px;
+background-color: #ff523b;
+padding: 10px;
+color: white;
+}

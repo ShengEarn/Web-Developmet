@@ -1,30 +1,3 @@
-let menu = document.querySelector('#menu-btn');
-let navbar = document.querySelector('.header .navbar');
-
-menu.onclick = () =>{
-    menu.classList.toggle('fa-times');
-    navbar.classList.toggle('active');
-} 
-
-/*---------------------Pricing Table Section---------------------*/
-
-const toggler = document.querySelector(".toggler");
-const starterPrice = document.getElementById("starter-price");
-const proPrice = document.getElementById("pro-price");
-
-toggler.addEventListener("change", ()=>{
-    if(toggler.checked){
-        starterPrice.innerHTML = `$200 <span> /year </span>`;
-        proPrice.innerHTML = `$1000 <span> /year </span>`;
-    }
-    else{
-        starterPrice.innerHTML = `$19 <span> /month </span>`;
-        proPrice.innerHTML = `$99 <span> /month </span>`;
-    }
-})
-
-/*---------------------BMI Calculator---------------------*/
-
 var age = document.getElementById("age");
 var height = document.getElementById("height");
 var weight = document.getElementById("weight");
@@ -32,12 +5,15 @@ var male = document.getElementById("m");
 var female = document.getElementById("f");
 var form = document.getElementById("form");
 let resultArea = document.querySelector(".comment");
+
 modalContent = document.querySelector(".modal-content");
 modalText = document.querySelector("#modalText");
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 
+
 function calculate(){
+ 
   if(age.value=='' || height.value=='' || weight.value=='' || (male.checked==false && female.checked==false)){
     modal.style.display = "block";
     modalText.innerHTML = `All fields are required!`;
@@ -53,8 +29,9 @@ function countBmi(){
   }else if(female.checked){
     p.push("female");
   }
+
   var bmi = Number(p[2])/(Number(p[1])/100*Number(p[1])/100);
-     
+      
   var result = '';
   if(bmi<18.5){
     result = 'Underweight';
