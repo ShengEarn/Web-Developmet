@@ -1,27 +1,5 @@
-html{
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  height: 100%;
-  margin: 0;
-  /* background-image: url("indeximage1.jpg");
-  background-color: #cccccc;
-  background-blend-mode: lighten; */
-}
-
-.wrapper {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.header, .footer {
-  background: silver;
-}
 .content {
   flex: 1;
-  overflow: auto;
   /* background: white; */
   width: 100%;
 
@@ -59,7 +37,7 @@ h1 {
   width:40%;
 }
 
-li{
+.photorow li{
   width: 50%;
   font-size: 18px;
   font-weight: bold;
@@ -94,5 +72,6 @@ button{
   font-weight: 600;
   margin-left: 30%;
   font-size: 16px;
+  cursor: pointer;
   
 }

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color: azure;
+    background-color: #464646;
 
 }
 
@@ -24,7 +24,7 @@ body {
     font-size: large;
     width: 600px;
     height: 150px;
-    background-color: #424a53;
+    background-color: #43758f;
     border-radius: 20px;
 }
 
@@ -162,7 +162,7 @@ video {
     width: 600px;
     height: 100px;
     padding: 10px 10px 10px 50px;
-    background-color: #424a53;
+    background-color: #43758f;
     border-radius: 20px;
 }
 
