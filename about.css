@@ -36,6 +36,7 @@ body {
     font-family: 'Times New Roman', Times, sans-serif;
     color: #ffffff;
     font-size: xxx-large;
+    text-shadow: 1px 1px;
     padding-left: 400px;
     letter-spacing: 10px;
 }
@@ -78,6 +79,7 @@ body {
     color: #ffffff;
     padding-left: 400px;
     font-size: xxx-large;
+    text-shadow: 1px 1px;
     font-weight: bolder;
     letter-spacing: 15px;
 }
@@ -183,11 +185,14 @@ video {
     display: block;
     margin: 5px;
     margin: 5px 0px;
-    width: 200px;
+    width: 260px;
 }
 
 .formall {
-    background-color: #ccc;
+    width: 500px;
+    background-color:linen;
     border-radius: 10px;
-    margin: 200px;
+    margin: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
