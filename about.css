@@ -7,7 +7,7 @@ body {
 
 .abouttitle {
     font-family: 'Times New Roman', Times, serif;
-    color: #43758f;
+    color: #ffffff;
     font-size: xxx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
@@ -34,7 +34,7 @@ body {
 
 .trop {
     font-family: 'Times New Roman', Times, sans-serif;
-    color: #43758f;
+    color: #ffffff;
     font-size: xxx-large;
     text-align: center;
     letter-spacing: 10px;
@@ -75,7 +75,7 @@ body {
 
 
 .contact {
-    color: #43758f;
+    color: #ffffff;
     text-align: center;
     font-size: xxx-large;
     font-weight: bolder;
@@ -106,7 +106,7 @@ body {
     padding-left: 50px;
     font-weight: bold;
     font-size: x-large;
-    color: #c97358;
+    color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -169,7 +169,7 @@ video {
 .faq {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: #43758f;
+    color: #ffffff;
     font-size: xxx-large;
     font-weight: bolder;
 }
