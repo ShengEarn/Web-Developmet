@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color: #464646;
+    background-image: radial-gradient(white, #ff523b);
 
 }
 
@@ -11,7 +11,7 @@ body {
     font-size: xxx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 15px;
 }
 
@@ -24,12 +24,11 @@ body {
     font-size: large;
     width: 600px;
     height: 150px;
-    background-color: #43758f;
+    background-color: #e36262;
     border-radius: 20px;
 }
 
 .oneall {
-    text-align:justify
 }
 
 .trop {
@@ -38,7 +37,7 @@ body {
     font-size: xxx-large;
     text-shadow: 1px 1px;
     text-align: justify;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 .trophypic {
@@ -46,31 +45,26 @@ body {
 }
 
 .trophypic1 {
-
     float: left;
     padding-right: 15px;
 }
 
 .trophypic2 {
     float: left;
-    padding-top: 10px;
     padding-right: 15px;
 }
 
 .trophypic3 {
     float: left;
-    padding-top: 10px;
     padding-right: 15px;
 }
 
 .trophypic4 {
     float: left;
-    padding-top: 10px;
     padding-right: 15px;
 }
 
 .trophypic5 {
-    padding-top: 10px;
     padding-right: 15px;
 }
 
@@ -93,7 +87,7 @@ body {
     width: 700px;
     height: 250px;
     padding: 20px;
-    background-color: #dcc4af;
+    background-color: #e36262;
     border-radius: 15px;
 }
 
@@ -121,7 +115,7 @@ body {
 video {
     display: block;
     width: 40%;
-    text-align: justify;
+    text-align: center;
 }
 
 .sub-nav {
@@ -165,7 +159,7 @@ video {
     height: 100px;
     text-align: center;
     padding: 10px 10px 10px 50px;
-    background-color: #43758f;
+    background-color: #e36262;
     border-radius: 20px;
 }
 
@@ -190,9 +184,9 @@ video {
 
 .formall {
     width: 500px;
-    background-color:linen;
+    background-color:rgb(240, 205, 193);
     border-radius: 10px;
-    margin: 100px;
+    margin: 140px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
