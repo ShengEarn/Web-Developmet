@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -48,7 +48,6 @@ nav ul li a::before {
 nav ul li a:hover::before {
   width: 100%;
 }
-
 
 nav {
   flex: 1;
@@ -349,9 +348,8 @@ footer {
   color: #bbbbbb;
   display: flex;
   flex-wrap: wrap;
-  font-size: 20px;
-  text-align: center;
-  justify-content: space-between;
+  text-align: left;
+  justify-content: space-evenly;
 }
 
 .footer-section {
@@ -359,13 +357,28 @@ footer {
 }
 
 .footer-section h3 {
-  margin: 10px;
+  font-size: 22px;
+  margin: 20px;
   color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-section h3::before {
+  content: "";
+  position: absolute;
+  left: calc(50% - 25px);
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
 
 .footer-section p {
-  margin: 5px;
+  margin: 10px;
   color: #bbbbbb;
+  font-size: 18px;
 }
 
 .footer-section ul {
@@ -375,18 +388,30 @@ footer {
 }
 
 .footer-section li {
-  margin-bottom: 5px;
+  margin: 10px;
+  font-size: 18px;
 }
 
 .footer-section a {
   text-decoration: none;
   color: #bbbbbb;
+  transition: all 0.3s ease;
+  display: block;
+  font-size: 18px;
+}
+
+.footer-section a:hover {
+  color: #ffffff;
+  padding-left: 15px;
+  font-weight: bold;
 }
 
 .footer-bottom {
   background-color: black;
   color: white;
   width: 100%;
+  text-align: center;
+  padding: 5px;
 }
 
 /* Laptop Devices */
