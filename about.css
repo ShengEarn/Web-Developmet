@@ -11,7 +11,7 @@ body {
     font-size: xxx-large;
     font-weight: bolder;
     text-shadow: 1px 1px;
-    text-align: center;
+    padding-left: 150px;
     letter-spacing: 15px;
 }
 
@@ -29,6 +29,7 @@ body {
 }
 
 .oneall {
+    margin: 50px;
 }
 
 .trop {
@@ -71,7 +72,7 @@ body {
 
 .contact {
     color: #ffffff;
-    text-align: center;
+    pad
     font-size: xxx-large;
     text-shadow: 1px 1px;
     font-weight: bolder;
