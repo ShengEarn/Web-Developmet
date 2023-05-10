@@ -149,7 +149,7 @@ p {
   min-width: 280px;
   transition: transform 0.5s;
   max-width: 300px;
-  max-height: 350px;
+  max-height: 400px;
   text-align: center;
   border: 5px dotted #ff523b;
   border-radius: 10px;
@@ -345,4 +345,40 @@ footer {
   background-color: black;
   color: white;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    min-width: 0;
+    padding: 0;
+    flex-basis: 15%;
+  } 
+  .navbar {
+    margin: 0;
+    padding: 20px 0;
+  }
+  nav ul li{
+    margin-right: 5px;
+  }
+  .row {
+    text-align: center;
+  }
+  .col-2 {
+    flex-basis: 100%;
+  }
+  .col-3,
+  .col-4 {
+    flex-basis: 100%;
+  }
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2 {
+    padding: 20px 0;
+    flex-basis: 100%;
+  }
+  .single-product h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
 }
