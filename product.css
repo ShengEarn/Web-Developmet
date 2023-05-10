@@ -1,9 +1,14 @@
+body {
+  background-image: radial-gradient(white, #ff523b);
+}
+
 .container {
   border-bottom: 1px solid black;
   min-width: 900px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+  background-color: white;
 }
 
 .navbar {
@@ -126,8 +131,9 @@ p {
 }
 
 .container3 {
-  margin: 0 50px;
+  margin: 50px;
   padding: 20px;
+  background-color: white;
 }
 
 .product-row {
@@ -195,6 +201,7 @@ p {
 /* single product details */
 .single-product {
   margin: 40px 80px;
+  background-color: white;
 }
 
 .single-product .col-2 img.main {
@@ -241,13 +248,13 @@ input:focus {
   outline: none;
 }
 
-.btn{
+.btn {
   border: 2px solid ff523b;
   border-radius: 10px;
   background-color: #ff523b;
   padding: 10px;
   color: white;
-  }
+}
 
 /*Footer Section*/
 footer {
