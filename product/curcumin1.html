@@ -41,11 +41,13 @@
           <p class="cat">Supplement / Curcumin</p>
           <h1>Curcumin & Vitamin D3 Capsules</h1>
           <h4>RM459.99 per item</h4>
-          <input type="number" value="1" />
+<h3>Quantity</h3>
+          <button class="btn2" onclick="decrementNumber()">-</button>
+          <input type="number" id="myNumber" min="0" max="100" value="1" readonly />
+          <button class="btn2" onclick="incrementNumber()">+</button>
           <a href="" class="btn">Add to Cart</a>
 
           <h3>Product Details</h3>
-          <br />
           <p>
             With 60mg of NovaSOL® curcumin extract and 11µg of vitamin D per
             capsule — which supports the immune system and normal muscle
@@ -150,5 +152,6 @@
         &copy; 2023 Jungle Workout Studios. All rights reserved.
       </div>
     </footer>
+    <script src="/../product.js"></script>
   </body>
 </html>
