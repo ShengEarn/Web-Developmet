@@ -1,14 +1,27 @@
-body {
-  background-image: radial-gradient(white, #ff523b);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: grey;
+}
+
+/* Navbar */
 .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   border-bottom: 1px solid black;
   min-width: 900px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: white;
+  background-color: black;
+  z-index: 9999;
 }
 
 .navbar {
@@ -16,6 +29,26 @@ body {
   align-items: center;
   padding: 20px 40px;
 }
+
+nav ul li a {
+  position: relative;
+}
+
+nav ul li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
 
 nav {
   flex: 1;
@@ -28,6 +61,7 @@ nav a {
   padding-bottom: 24px;
   padding-left: 5px;
   padding-right: 5px;
+  color: white;
 }
 
 nav ul {
@@ -44,11 +78,15 @@ nav ul li {
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #555;
+  color: #7cfc00;
   text-decoration: none;
-  padding: 19px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
+/* Body */
 a {
   text-decoration: none;
   color: #555;
@@ -60,6 +98,7 @@ p {
 
 .container2 {
   padding: 20px;
+  margin-top: 100px;
 }
 
 .row {
@@ -130,13 +169,13 @@ p {
 }
 
 .container3 {
-  margin: 50px;
+  margin: 30px;
   padding: 20px;
-  background-color: white;
-  border-radius: 20px;
 }
 
 .product-row {
+  background-color: white;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -151,7 +190,7 @@ p {
   max-width: 300px;
   max-height: 400px;
   text-align: center;
-  border: 5px dotted #ff523b;
+  border: 5px dotted black;
   border-radius: 10px;
   margin: 20px;
   height: auto;
@@ -167,7 +206,7 @@ p {
   margin: 0 auto 40px;
   position: relative;
   line-height: 60px;
-  color: #555;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -205,6 +244,8 @@ p {
   margin: 40px 80px;
   background-color: white;
   border-radius: 20px;
+  margin-top: 100px;
+  padding: 20px;
 }
 
 .single-product .col-2 img.main {
@@ -304,8 +345,8 @@ select:focus {
 
 /*Footer Section*/
 footer {
-  background-color: grey;
-  color: black;
+  background-color: #24262b;
+  color: #bbbbbb;
   display: flex;
   flex-wrap: wrap;
   font-size: 20px;
@@ -314,16 +355,17 @@ footer {
 }
 
 .footer-section {
-  flex-basis: 25%;
+  flex-basis: 15%;
 }
 
 .footer-section h3 {
   margin: 10px;
+  color: #ffffff;
 }
 
 .footer-section p {
   margin: 5px;
-  color: black;
+  color: #bbbbbb;
 }
 
 .footer-section ul {
@@ -338,7 +380,7 @@ footer {
 
 .footer-section a {
   text-decoration: none;
-  color: black;
+  color: #bbbbbb;
 }
 
 .footer-bottom {
@@ -347,17 +389,23 @@ footer {
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  .container{
+/* Laptop Devices */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
     min-width: 0;
     padding: 0;
     flex-basis: 15%;
-  } 
+  }
+
+  .container3 {
+    margin: 20px;
+  }
+
   .navbar {
     margin: 0;
     padding: 20px 0;
   }
-  nav ul li{
+  nav ul li {
     margin-right: 5px;
   }
   .row {
@@ -365,11 +413,22 @@ footer {
   }
   .col-2 {
     flex-basis: 100%;
+    margin: 20px;
   }
-  .col-3,
+  .col-3 {
+    flex-basis: 20%;
+  }
   .col-4 {
-    flex-basis: 100%;
+    flex-basis: 10%;
   }
+  .single-product {
+    margin: 40px 40px;
+  }
+
+  .single-product .col-2 img.main {
+    border: none;
+  }
+
   .single-product .row {
     text-align: left;
   }
@@ -380,5 +439,190 @@ footer {
   .single-product h1 {
     font-size: 26px;
     line-height: 32px;
+  }
+  .single-product h4 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  footer {
+    font-size: 25px;
+    text-align: left;
+  }
+  .footer-section {
+    flex-basis: 50%;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* CSS styles for tablet devices */
+  .container {
+    min-width: 0;
+    padding: 0;
+    flex-basis: 15%;
+  }
+
+  .container3 {
+    margin: 20px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 20px 0;
+  }
+  nav ul li {
+    margin-right: 5px;
+  }
+  .row {
+    text-align: center;
+  }
+  .col-2 {
+    flex-basis: 100%;
+    margin: 20px;
+  }
+  .col-3 {
+    flex-basis: 20%;
+  }
+  .col-4 {
+    flex-basis: 10%;
+  }
+  .single-product {
+    margin: 40px 40px;
+  }
+  .single-product select,
+  option {
+    font-size: 15px;
+    text-align: center;
+  }
+  .single-product .col-2 img.main {
+    border: none;
+  }
+  .btn,
+  .btn2 {
+    font-size: 15px;
+  }
+  .single-product input {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2 {
+    padding: 20px 0;
+    flex-basis: 100%;
+  }
+  .single-product h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .single-product h4 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  footer {
+    font-size: 20px;
+    text-align: center;
+  }
+  .footer-section {
+    flex-basis: 100%;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+/* Mobile Devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    width: auto;
+    margin: 0 auto;
+  }
+  .container {
+    width: 0;
+    padding: 0;
+    flex-basis: 10%;
+  }
+
+  .container3 {
+    margin: 20px;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 20px 0;
+  }
+  nav ul li {
+    margin: 0;
+  }
+  nav a {
+    font-size: 10px;
+  }
+  .row {
+    text-align: center;
+  }
+  .col-2 {
+    flex-basis: 100%;
+    margin: 20px;
+  }
+  .col-3 {
+    flex-basis: 20%;
+  }
+  .col-4 {
+    flex-basis: 10%;
+  }
+  .single-product {
+    margin: 0;
+  }
+  .single-product select,
+  option {
+    font-size: 15px;
+    text-align: center;
+  }
+  .single-product .col-2 img.main {
+    border: none;
+  }
+
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2 {
+    padding: 20px 0;
+    flex-basis: 100%;
+  }
+  .single-product h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .single-product h4 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .btn,
+  .btn2 {
+    font-size: 15px;
+  }
+  .single-product input {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+
+  footer {
+    font-size: 15px;
+    text-align: center;
+  }
+  .footer-section {
+    flex-basis: 100%;
+  }
+  .footer-bottom {
+    text-align: center;
   }
 }
