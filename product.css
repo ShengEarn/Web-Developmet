@@ -181,7 +181,7 @@ p {
 }
 
 .container3 {
-  margin: 30px;
+  margin: 20px;
   padding: 20px;
 }
 
@@ -192,6 +192,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 20px;
 }
 
 .col-4 {
@@ -213,9 +214,30 @@ p {
   height: 200px;
 }
 
-.title {
+.title1 {
   text-align: center;
   margin: 0 auto 40px;
+  position: relative;
+  line-height: 60px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.title1::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 20px;
   position: relative;
   line-height: 60px;
   color: #ffffff;
