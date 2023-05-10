@@ -79,12 +79,12 @@ body {
 }
 
 .contall {
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 .cont {
     box-sizing: content-box;
-    width: 700px;
+    width: 650px;
     height: 250px;
     padding: 20px;
     background-color: #e36262;
