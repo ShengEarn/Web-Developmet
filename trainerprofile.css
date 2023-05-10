@@ -5,57 +5,49 @@
     position:relative;
   
   }
-
   
   .table {
     border-collapse: collapse;
     width: 100%;
     font-size: 20px;
-     border: 1px solid black; 
+    border: 1px solid black; 
    
   }
   .td {
     padding: 10px;
     text-align: center;
     width: 100px;
-    /* border: 1px solid black; */
-    box-sizing: border-box; /* Add this line */
+    box-sizing: border-box;
   }
   
   .tr {
     padding: 10px;
-    /* border: 1px solid black; */
     text-align: center;
   }
   .th{
     padding: 10px;
-    /* border: 1px solid black; */
     text-align: center;
     width:100px;
-    color:white;
-    background-color: black;
-    box-sizing: border-box; /* Add this line */
+    color:black;
+    background-color: #FFDB58;
+    box-sizing: border-box;
   }
-
-  
   
   .td.clicked {
-    background-color: grey;
+    background-color: rgb(186, 186, 186);
     color:white;
   }
  
   .td:hover
   {
-    background-color: grey;
+    background-color: rgb(212, 207, 207);
     cursor: pointer;
   }
     .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* margin-top: 20px; */
-  }
-  
+  } 
   
   .column {
     flex-basis: 50%;
@@ -65,7 +57,6 @@
   .profile-row {
     display: flex;
     flex-direction: row;
-    /* margin-top: 20px; */
   }
 
   .profile-column{
@@ -78,7 +69,6 @@
 
   .profile-img{
     width:10rem;
-    /* height:200px; */
     margin:10px;
   }
 
@@ -93,8 +83,6 @@
     top: 0;
     width: 50%;
     height: 100%; 
-    /* padding:20px; */
-    /* background-color: rgba(0, 0, 0, 0.5); */
     display: fixed;
     justify-content: center;
     align-items: center;
@@ -130,10 +118,11 @@
     cursor: pointer;
   }
   .modal-content .button{
-    background-color: white;
+    background-color: #FFDB58;
     border: #FFDB58 solid 2px;
     border-radius: 15px;
     font-size: 14px;
+    font-weight:bold;
   }
 
   .modal-content .button:hover{
@@ -142,6 +131,7 @@
     border-radius: 15px;
     color:white;
     font-size: 14px;
+    font-weight:bold;
     cursor: pointer;
   }
   
@@ -170,19 +160,21 @@
   }
 
   #book-slot-modal .button {
-    background-color: white;
-    border: #FFDB58 solid 2px;
+    background-color: #FFDB58;
+    border:#FFDB58 2px;
     border-radius: 15px;
     padding:2px;
     font-size: 18px;
+    font-weight:bold;
   }
   
   #book-slot-modal .button:hover{
-    background-color: #FFDB58;
+    background-color:rgb(186, 186, 186);
     border-color: #FFDB58;
     border-radius: 15px;
     color:white;
     font-size: 18px;
+    font-weight:bold;
     cursor: pointer;
   }
   
@@ -203,8 +195,7 @@
   #book-slot-modal .p{
     font-size:16px;
     margin-top:10px
-  }
-  
+  }  
   
   #book-slot-modal .div{
     border-width: 2px;
