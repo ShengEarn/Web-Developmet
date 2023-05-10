@@ -1,4 +1,4 @@
-  .content {
+.content {
     flex: 1;
     /* background: white; */
     width: 100%;
@@ -59,14 +59,14 @@
   }
   
   .photorow li:not(:first-child)::marker {
-    content: "• ";
+    content: "✅";
     margin-right: 5px; 
     font-weight: normal;  
   }
   
   button{
-    background-color: white;
-    border: #FFDB58 solid 2px;
+    background-color:#7fd17b;
+    border: white solid 2px;
     border-radius: 15px;
     padding: 10px;
     margin-top: 20px;
@@ -78,8 +78,8 @@
  }
   
    button:hover{
-    background-color: #FFDB58;
-    border-color: #FFDB58;
+    background-color: #7fd17b;
+    border-color:white;
     border-radius: 15px;
     padding: 10px;
     color: white;
@@ -101,3 +101,13 @@
     padding-left: 0.5em;
     text-indent: -0.5em;
   }
+ 
+
+ 
+  
+  
+  
+ 
+  
+  
+  
