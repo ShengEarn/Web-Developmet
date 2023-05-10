@@ -41,11 +41,13 @@
           <p class="cat">Cardio / Treadmill</p>
           <h1>D'QUE PLUS+ 2.0 TREADMILL</h1>
           <h4>RM2,590.00 per item</h4>
-          <input type="number" value="1" />
+<h3>Quantity</h3>
+          <button class="btn2" onclick="decrementNumber()">-</button>
+          <input type="number" id="myNumber" min="0" max="100" value="1" readonly />
+          <button class="btn2" onclick="incrementNumber()">+</button>
           <a href="" class="btn">Add to Cart</a>
 
           <h3>Product Details</h3>
-          <br />
           <p>
             Equipped with a 1.75HP motor, providing you with enough power to run
             confidentially while maintaining the speed between 1 – 16km/h.
@@ -160,5 +162,6 @@
         &copy; 2023 Jungle Workout Studios. All rights reserved.
       </div>
     </footer>
+    <script src="/../product.js"></script>
   </body>
 </html>
