@@ -1,9 +1,6 @@
-@charset "utf-8";
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 .abouttitle {
-    font-family: 'Times New Roman', Times, serif;
     color: #ffffff;
     font-size: xxx-large;
     font-weight: bolder;
@@ -20,7 +17,7 @@
     text-align: left;
     font-size: large;
     width: 600px;
-    height: 150px;
+    height: 170px;
     background-color: #fffaf3;
     border-radius: 20px;
 }
@@ -30,7 +27,6 @@
 }
 
 .trop {
-    font-family: 'Times New Roman', Times, sans-serif;
     color: #ffffff;
     font-size: xxx-large;
     text-shadow: 1px 1px;
@@ -69,7 +65,7 @@
 
 .contact {
     color: #ffffff;
-    text-align: center;
+    padding-left: 150px;
     font-size: xxx-large;
     text-shadow: 1px 1px;
     font-weight: bolder;
@@ -85,7 +81,7 @@
     width: 650px;
     height: 250px;
     padding: 20px;
-    background-color: #5e6685;
+    background-color: #d5dcd5;
     border-radius: 15px;
 }
 
@@ -101,7 +97,6 @@
     font-weight: bold;
     font-size: x-large;
     color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .abpic3 {
@@ -128,13 +123,24 @@ video {
 
 .confaq {
     flex-wrap: wrap;
-
 }
 
 .sub-nav ul li a {
     color: #333;
     text-decoration: none;
     padding: 5px;
+}
+
+  /* FAQ */
+  .sub-nav-faq {
+    display: block;
+    flex-wrap: wrap;
+    text-align:left;
+}
+
+.nav-confaq {
+    text-align: center;
+    color: ;
 }
 
 .question {
@@ -155,23 +161,22 @@ video {
 .faquestion7 {
     box-sizing: content-box;
     width: 650px;
-    height: 100px;
+    height: 120px;
     text-align: center;
-    padding: 10px 10px 10px 50px;
+    padding: 10px 10px 10px 40px;
     background-color: #fffaf3;
     border-radius: 20px;
 }
 
 .faq {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    padding-left: 150px;
     color: #ffffff;
     font-size: xxx-large;
     font-weight: bolder;
 }
 
 .faqall {
-    padding-left: 400px;
+    padding-left: 120px;
 }
 
 .form {
@@ -183,11 +188,10 @@ video {
 
 .formall {
     width: 500px;
-    background-color:rgb(240, 205, 193);
+    background-color:#eceff7;
     border-radius: 10px;
     margin: 140px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 html {
