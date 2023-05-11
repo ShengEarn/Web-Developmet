@@ -552,8 +552,16 @@ footer {
     text-align: left;
   }
   .footer-section {
-    flex-basis: 50%;
+    flex-basis: 20%;
   }
+
+  .footer-section h3,
+  .footer-section p,
+  .footer-section a,
+  .footer-section li {
+    font-size: 15px;
+  }
+
   .footer-bottom {
     text-align: center;
   }
@@ -568,6 +576,15 @@ footer {
     flex-basis: 15%;
   }
 
+  .container2{
+    margin-top: 73px;
+  }
+
+  .logo a {
+    font-size: 15px;
+    padding: 0;
+  }
+
   .container3 {
     margin: 20px;
   }
@@ -576,10 +593,6 @@ footer {
     font-size: 15px;
   }
 
-  .navbar {
-    margin: 0;
-    padding: 20px 0;
-  }
   nav ul li {
     margin-right: 5px;
   }
@@ -597,7 +610,7 @@ footer {
     flex-basis: 10%;
   }
   .single-product {
-    margin: 40px 40px;
+    margin: 73px 40px;
   }
   .single-product select,
   option {
@@ -632,14 +645,40 @@ footer {
     margin: 10px 0;
   }
   footer {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+    justify-content: space-evenly;
   }
+
+  .footer-section h3,
+  .footer-section p,
+  .footer-section a,
+  .footer-section li {
+    font-size: 15px;
+  }
+
+  .footer-section:nth-child(3){
+    flex-basis: 100%;
+  }
+
+  .footer-col li a img{
+    height: 20px;
+  }
+
   .footer-section {
     flex-basis: 100%;
   }
   .footer-bottom {
     text-align: center;
+  }
+
+  .footer-col {
+    justify-content: center;
+  }
+
+  .container4 th,
+  td {
+    font-size: 15px;
   }
 }
 

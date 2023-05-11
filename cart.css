@@ -75,6 +75,7 @@ tfoot td {
 .container4 {
   background-color: white;
   padding: 50px;
+  border-radius: 20px;
 }
 
 td button {
@@ -96,4 +97,26 @@ td button {
   width: 20%;
   margin: 0;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+.container3{
+  margin-top: 73px;
+}
+
+.container4{
+  padding: 10px;
+}
+
+.container4 th, td {
+  font-size: 10px;
+}
+td button{
+  font-size: 10px;
+}
+
+tfoot td{
+  font-size: 15px;
+}
 }
