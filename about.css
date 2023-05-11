@@ -73,12 +73,12 @@
 }
 
 .contall {
-    padding-left: 150px;
+    padding-left: 100px;
 }
 
 .cont {
     box-sizing: content-box;
-    width: 650px;
+    width: 600px;
     height: 250px;
     padding: 20px;
     background-color: #d5dcd5;
@@ -158,10 +158,14 @@ video {
 .faquestion4,
 .faquestion5,
 .faquestion6,
-.faquestion7 {
+.faquestion7,
+.faquestion8,
+.faquestion9,
+.faquestion10,
+.faquestion11 {
     box-sizing: content-box;
-    width: 650px;
-    height: 120px;
+    width: 600px;
+    height: 130px;
     text-align: center;
     padding: 10px 10px 10px 40px;
     background-color: #fffaf3;
@@ -169,14 +173,14 @@ video {
 }
 
 .faq {
-    padding-left: 150px;
+    padding-left: 120px;
     color: #ffffff;
     font-size: xxx-large;
     font-weight: bolder;
 }
 
 .faqall {
-    padding-left: 120px;
+    padding-left: 100px;
 }
 
 .form {
