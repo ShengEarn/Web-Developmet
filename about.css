@@ -1,9 +1,6 @@
 @charset "utf-8";
 
-body {
-    background-image: radial-gradient(white, #ff523b);
 
-}
 
 .abouttitle {
     font-family: 'Times New Roman', Times, serif;
@@ -17,14 +14,14 @@ body {
 
 
 .one {
-    color: azure;
+    color: #5e6685;
     box-sizing: content-box;
     padding: 30px 30px 30px 30px;
     text-align: left;
     font-size: large;
     width: 600px;
     height: 150px;
-    background-color: #e36262;
+    background-color: #fffaf3;
     border-radius: 20px;
 }
 
@@ -88,7 +85,7 @@ body {
     width: 650px;
     height: 250px;
     padding: 20px;
-    background-color: #e36262;
+    background-color: #5e6685;
     border-radius: 15px;
 }
 
@@ -126,6 +123,7 @@ video {
     right: 0;
     padding: 15px;
     z-index: 1;
+    padding-top: 120px;
 }
 
 .confaq {
@@ -140,12 +138,12 @@ video {
 }
 
 .question {
-    color: azure;
+    color: #5e6685;
     font-size: x-large;
 }
 
 .answer {
-    color: antiquewhite;
+    color: #b2aaaa;
 }
 
 .faquestion1,
@@ -156,11 +154,11 @@ video {
 .faquestion6,
 .faquestion7 {
     box-sizing: content-box;
-    width: 600px;
+    width: 650px;
     height: 100px;
     text-align: center;
     padding: 10px 10px 10px 50px;
-    background-color: #e36262;
+    background-color: #fffaf3;
     border-radius: 20px;
 }
 
@@ -191,3 +189,200 @@ video {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+
+html {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #ff0000;
+  }
+  
+  body {
+    background-color: darkgrey;
+  }
+  
+  /* Navbar */
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    min-width: 900px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    z-index: 9999;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  nav ul li a {
+    position: relative;
+  }
+  
+  nav ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav a {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .logo a {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #7cfc00;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+/*Footer Section*/
+footer {
+    background-color: #24262b;
+    color: #bbbbbb;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer-section {
+    flex-basis: 20%;
+  }
+  
+  .footer-section:nth-child(3) {
+    flex-basis: 10%;
+  }
+  
+  .footer-section h3 {
+    font-size: 22px;
+    margin: 20px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .footer-section h3::before {
+    content: "";
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  .footer-section p {
+    margin: 10px;
+    color: #bbbbbb;
+    font-size: 18px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+    display: block;
+    font-size: 18px;
+  }
+  
+  .footer-section a:hover {
+    color: #ffffff;
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  
+  .footer-col {
+    display: flex;
+    justify-content: left;
+    height: 36px;
+  }
+  
+  .footer-col li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+  }
+  
+  .footer-col li a img {
+    height: 28px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .footer-col li a:hover img {
+    transform: scale(1.2);
+    height: 33.6px;
+  }
+  
+  .footer-bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
