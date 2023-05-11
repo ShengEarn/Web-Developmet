@@ -342,6 +342,7 @@ p {
   color: white;
   border-radius: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .single-product table,
@@ -375,6 +376,7 @@ select:focus {
   color: white;
   font-size: 25px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .cart {
@@ -390,7 +392,6 @@ select:focus {
   width: 100%;
   height: 100%;
 }
-
 
 /*Footer Section*/
 footer {

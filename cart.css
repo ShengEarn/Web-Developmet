@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #ddd;
+}
+
+thead th:first-child {
+  width: 40%;
+}
+
+thead th:nth-child(3) {
+  width: 10%;
+}
+
+thead th:nth-child(4) {
+  width: 20%;
+}
+
+thead th:nth-child(5) {
+  width: 10%;
+}
+
+tbody td:first-child {
+  width: 40%;
+}
+
+tbody td:nth-child(3) {
+  width: 10%;
+}
+
+tbody td:nth-child(4) {
+  width: 20%;
+}
+
+tbody td:nth-child(5) {
+  width: 10%;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tfoot td {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.container3 {
+  margin-top: 100px;
+}
+
+.container4 {
+  background-color: white;
+  padding: 50px;
+}
+
+td button {
+  cursor: pointer;
+  border: 2px solid #ff523b;
+  border-radius: 20px;
+  background-color: #ff523b;
+  padding: 10px;
+  color: white;
+}
+
+.checkcontainer {
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.btn {
+  width: 20%;
+  margin: 0;
+  cursor: pointer;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Under Armour Velocity 2.0 Short Sleeve Tee</title>
     <link rel="stylesheet" href="/../resetsheet.css" />
     <link rel="stylesheet" href="/../product.css" />
@@ -13,8 +13,8 @@
       <div class="navbar">
         <div class="logo">
           <a href="/../home.html">
-            <span style="color:#7cfc00; margin: 0 20px;">Jungle</span><br />
-            <span style="color:white;">Workout Studios</span>
+            <span style="color: #7cfc00; margin: 0 20px">Jungle</span><br />
+            <span style="color: white">Workout Studios</span>
           </a>
         </div>
         <nav>
@@ -54,9 +54,21 @@
           </select>
           <h3>Quantity</h3>
           <button class="btn2" onclick="decrementNumber()">-</button>
-          <input type="number" id="myNumber" min="0" max="100" value="1" readonly />
+          <input
+            type="number"
+            id="myNumber"
+            min="0"
+            max="100"
+            value="1"
+            readonly
+          />
           <button class="btn2" onclick="incrementNumber()">+</button>
-          <a href="" class="btn">Add to Cart</a><br />
+          <button
+            class="btn"
+            onclick="addToCart('Under Armour Velocity 2.0 Short Sleeve Tee', 99.00, 'myNumber')"
+          >
+            Add to Cart</button
+          ><br />
           <h3>Product Details</h3>
           <p>Under Armour Velocity 2.0 Short Sleeve Tee</p>
           <br />

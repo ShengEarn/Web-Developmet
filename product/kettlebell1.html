@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MAXX RUBBERIZED 20KG KETTLEBELL</title>
     <link rel="stylesheet" href="/../resetsheet.css" />
     <link rel="stylesheet" href="/../product.css" />
@@ -13,8 +13,8 @@
       <div class="navbar">
         <div class="logo">
           <a href="/../home.html">
-            <span style="color:#7cfc00; margin: 0 20px;">Jungle</span><br />
-            <span style="color:white;">Workout Studios</span>
+            <span style="color: #7cfc00; margin: 0 20px">Jungle</span><br />
+            <span style="color: white">Workout Studios</span>
           </a>
         </div>
         <nav>
@@ -45,11 +45,23 @@
           <p class="cat">Strength / Kettlebells</p>
           <h1>MAXX RUBBERIZED 20KG KETTLEBELL</h1>
           <h4>RM360.00 per item</h4>
-<h3>Quantity</h3>
+          <h3>Quantity</h3>
           <button class="btn2" onclick="decrementNumber()">-</button>
-          <input type="number" id="myNumber" min="0" max="100" value="1" readonly />
+          <input
+            type="number"
+            id="myNumber"
+            min="0"
+            max="100"
+            value="1"
+            readonly
+          />
           <button class="btn2" onclick="incrementNumber()">+</button>
-          <a href="" class="btn">Add to Cart</a>
+          <button
+            class="btn"
+            onclick="addToCart('MAXX RUBBERIZED 20KG KETTLEBELL', 360.00, 'myNumber')"
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
