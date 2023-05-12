@@ -99,24 +99,28 @@ td button {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px) {
-
-.container3{
-  margin-top: 73px;
+img {
+  cursor: pointer;
 }
 
-.container4{
-  padding: 10px;
-}
+@media only screen and (max-width: 768px) {
+  .container3 {
+    margin-top: 73px;
+  }
 
-.container4 th, td {
-  font-size: 10px;
-}
-td button{
-  font-size: 10px;
-}
+  .container4 {
+    padding: 10px;
+  }
 
-tfoot td{
-  font-size: 15px;
-}
+  .container4 th,
+  td {
+    font-size: 10px;
+  }
+  td button {
+    font-size: 10px;
+  }
+
+  tfoot td {
+    font-size: 15px;
+  }
 }

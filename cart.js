@@ -47,3 +47,11 @@ function renderCart() {
 }
 
 renderCart();
+
+function goToCheckout() {
+  window.location.href = "checkout.html";
+}
+
+function goBack() {
+  history.back();
+}

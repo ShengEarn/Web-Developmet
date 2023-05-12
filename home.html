@@ -31,16 +31,18 @@
             <div><a href="home.html" class="logo"><span>JUNGLE</span><br>WORKOUT STUDIOS</a></div>
                     <nav class="header navbar">
                         <a href="home.html" style="margin-right: -10rem;">Home</a>
+                        <a href="facility.html" style="margin-right: -10rem;">Facility</a>
                         <a href="trainer.html" style="margin-right: -10rem;">Trainer</a>
                         <a href="product.html" style="margin-right: -10rem;">Product</a>
                         <a href="about.html" style="margin-right: -3rem;">About Us</a>
                         
-                        <button class="btnLogin-popup" style="padding-bottom: 3em;">Login
-                            <a href="login.html" style="margin-left: -60px; margin-top: -60px;"></a>
+                        <button class="btnLogin-popup" style="padding-bottom: 3em;">
+                            <a href="login.html" style="margin-left: -0px; top: 12px; font-size: 1em;">Login</a>
                         </button>
-                        <button class="btnCart-popup" style="padding-bottom: 3em;">Add To Cart
-                            <a href="cart.html" style="margin-left: -60px; margin-top: -60px;"></a>
-                        </button>
+
+                        <div class="cart">
+                            <a href="cart.html"> <img src="addToCart.png" /></a>
+                        </div>
 
                         <div class="member">
                         <a href="bmi.html" class="calculator_Logo"><img src="calculator.png"></a>
@@ -57,12 +59,12 @@
 
             <div class="slider">
                 <div class="slider_item">
-                    <img src="program7.jpg" alt="Squats" class="slider_img" >
-                    <div class="overlay">Calisthenics</div>
-                </div>
-                <div class="slider_item">
                     <img src="program2.png" alt="cardiovascular exercise" class="slider_img">
                     <div class="overlay">Strength Training</div>
+                </div>
+                <div class="slider_item">
+                    <img src="program7.jpg" alt="Squats" class="slider_img">
+                    <div class="overlay">Calisthenics</div>
                 </div>
                 <div class="slider_item">
                     <img src="program5.jpg" alt="Zumba" class="slider_img">
@@ -99,23 +101,23 @@
                 <div id="experts" class="experts">
 
                     <div class="trainer trainer--active">
-                        <img src="trainer1.jpeg" alt="" class="trainer_img">
+                        <a href="trainer.html" style="align-items: center;"><img src="trainer1.jpeg" alt="" class="trainer_img"></a>
                     </div>
 
                     <div class="trainer trainer--next">
-                        <img src="trainer2.jpg" alt="" class="trainer_img">
+                        <a href="trainer.html" style="align-items: center;"><img src="trainer2.jpg" alt="" class="trainer_img"></a>
                     </div>
 
                     <div class="trainer">
-                        <img src="trainer3.jpg" alt="" class="trainer_img">
+                        <a href="trainer.html" style="align-items: center;"><img src="trainer3.jpg" alt="" class="trainer_img"></a>
                     </div>
 
                     <div class="trainer">
-                        <img src="trainer4.jpg" alt="" class="trainer_img">
+                        <a href="trainer.html" style="align-items: center;"><img src="trainer4.jpg" alt="" class="trainer_img"></a>
                     </div>
                     
                     <div class="trainer trainer--prev">
-                        <img src="trainer5.jpg" alt="" class="trainer_img">
+                        <a href="trainer.html" style="align-items: center;"><img src="trainer5.jpg" alt="" class="trainer_img"></a>
                     </div>
                     
                     <div class="experts_buttons">
@@ -191,7 +193,7 @@
                         <li> Enterprise account administration</li>
                         <li> Premium account and services</li>
                     </ul>
-                    <button type="button" class="card-btn"> Contact Us</button>
+                    <button type="button" class="card-btn"><a href="contactus.html">Contact Us</a></button>
                 </div>
             </div>
         </div>
@@ -203,27 +205,28 @@
                 <div class="footer-col">
                     <h4>OPENING HOURS</h4>
                     <ul>
-                        <li><a href="#">MONDAY - THURSDAY&nbsp;:<br><span style="padding-left: 3rem;">9am - 10pm</span></a></li>
-                        <li><a href="#">FRIDAY&nbsp;: 10am - 12am </a></li>
-                        <li><a href="#">PUBLIC HOLIDAYS&nbsp;: CLOSED </a></li>
+                        <li>MONDAY - THURSDAY&nbsp;:<br><span style="padding-left: 3rem;">9am - 10pm</span></li>
+                        <li>FRIDAY&nbsp;: 10am - 12am </li>
+                        <li>PUBLIC HOLIDAYS&nbsp;: CLOSED </li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>LOCATION</h4>
                     <ul>
-                        <li><a href="#">5019 West Benjamin<br>Holt Drive Stockton,<br>CA 95219</a></li>
+                        <li>5019 West Benjamin<br>Holt Drive Stockton,<br>CA 95219</li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>MENU</h4>
                     <ul>
                         <li><a href="home.html">Home</a></li>
+                        <li><a href="facility.html">Facility</a></li>
                         <li><a href="trainer.html">Trainer</a></li>
                         <li><a href="product.html">Product</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
                     </ul>
                 </div>
-                <div class="footer-col" style="padding-left: 0em;">
+                <div class="footer-col">
                     <h4>CONTACT</h4>
                     <ul>
                         <li class="contact" style="font-size: 17px;">PHONE&nbsp;: <a href="tel:+60174680519">&nbsp;017-4680519</a></li>
@@ -252,8 +255,11 @@
             </div>
         </div>
     </footer>
+    
 
     
+
+    <!---------------------------------Livechat Section---------------------------------> 
     <div class="chat-bar-collapsible">
         <button id="chat-button" type="button" class="collapsible">Chat with us!&nbsp;
             <img src="wechat.png" id="chat-icon">
