@@ -103,21 +103,15 @@ section .banner-btn:hover{
 
 .member .calculator_Logo img{
     width: 65px;
-    margin-right: 0rem !important;
+    margin-right: 6rem !important;
 }
 
 .member a:hover{
     background: none !important;
 }
 
-.member .calculator_Logo img:hover{
-    color: #ffffff;
-    max-width: 50px;
-    transition: all 0.3s ease;
-}
-
 .navbar{
-    margin-left: 120px;
+    margin-left: 190px;
 }
 
 .navbar a{
@@ -130,8 +124,8 @@ section .banner-btn:hover{
     justify-content: center;
     align-items: center;
     font-weight: 500;
-    margin-left: 80px;
-    padding: 1em;
+    margin-left: 100px;
+    padding-right: -20px;
 }
 
 .navbar .btnLogin-popup{
@@ -145,22 +139,9 @@ section .banner-btn:hover{
     font-size: 1.7em;
     color: #ffffff;
     font-weight: 600;
-    margin-right: -45px;
+    margin-right: -105px;
 }
 
-.navbar .btnCart-popup{
-    width: 130px;
-    height: 50px;
-    background: transparent;
-    border: 2px solid #ffffff;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1.7em;
-    color: #ffffff;
-    font-weight: 600;
-    margin-right: -150px;
-}
 
 .navbar a::after{
     content: "";
@@ -182,14 +163,12 @@ section .banner-btn:hover{
 }
 
 
-.navbar .btnLogin-popup:hover,
-.navbar .btnCart-popup:hover {
+.navbar .btnLogin-popup:hover{
     background-color: #ffffff;
     color: #162938;  
 }
 
-.navbar .btnLogin-popup a:hover::after,
-.navbar .btnCart-popup a:hover::after{
+.navbar .btnLogin-popup a:hover::after{
     transform-origin: none;
     transform: scaleX(0);
 }
@@ -197,6 +176,17 @@ section .banner-btn:hover{
 .home{
     padding: 0;
     margin-top: 6.5rem;
+}
+
+.cart {
+    position: fixed;
+    right: 19.9em;
+    max-width: 5.5em;
+}
+  
+.cart img {
+    width: 100%;
+    height: 100%;
 }
 
 /*-------------------Login & Registration-------------------*/
@@ -433,4 +423,55 @@ section .banner-btn:hover{
     border-bottom-left-radius: 20px;
     cursor: pointer;
     z-index: 1;
+}
+
+/*----------------------Tablet Media Query----------------------*/
+@media only screen and (max-width: 768px){
+    .logo{
+        position: fixed;
+        font-size: 2.5rem;
+        top: 0.9em;
+        left: 2rem;
+    }
+
+    .logo span{
+        margin-left: 19%;
+        font-size: 3rem;
+        position: absolute;
+    }
+
+    .navbar{
+        margin-left: 40px;
+        margin-top: -1em;
+    }
+    
+    .navbar a{
+        font-size: 1.7em;
+        margin-left: 30px;
+        padding: 2.3em;
+    }
+
+    .navbar .btnLogin-popup{
+        width: 70px;
+        height: 50px;;
+        font-size: 1.3em;
+        margin-right: -3.3em !important;
+    }
+
+    .member .calculator_Logo img{
+        width: 55px;
+        margin-right: -8.5rem !important;
+        margin-top: 0.5em;
+    }
+
+    .wrapper.active{
+        height: 480px;
+    }
+    
+    .cart{
+        left: -2em;
+        bottom: 2em;
+        max-width: 7em;
+    }
+
 }

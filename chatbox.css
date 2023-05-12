@@ -118,6 +118,7 @@ html{
     outline: none;
     margin: 2px;
     margin-bottom: 11px;
+    text-transform: none !important;
 }
 
 .userText {
@@ -139,7 +140,8 @@ html{
     border-bottom-right-radius: 2px;
     max-width: 80%;
     margin-right: 10px;
-    animation: floatup .5s forwards
+    animation: floatup .5s forwards;
+    text-transform: none !important;
 }
 
 .botText {
@@ -160,7 +162,8 @@ html{
     border-bottom-left-radius: 2px;
     max-width: 80%;
     margin-left: 10px;
-    animation: floatup .5s forwards
+    animation: floatup .5s forwards;
+    text-transform: none !important;
 }
 
 @keyframes floatup {
@@ -174,10 +177,12 @@ html{
     }
 }
 
-@media screen and (max-width:600px) {
+/*----------------------Tablet Media Query----------------------*/
+@media only screen and (max-width: 678px){
     .full-chat-block {
         width: 100%;
         border-radius: 0px;
+        max-height: 50%;
     }
     .chat-bar-collapsible {
         position: fixed;
@@ -191,4 +196,8 @@ html{
         border-top: 3px solid white;
         border-radius: 0px;
     }
-}
+
+    
+
+    
+} 

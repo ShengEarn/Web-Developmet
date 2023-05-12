@@ -166,7 +166,7 @@ button.calculate:hover {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 
 .footer-text {
@@ -324,7 +324,7 @@ button.calculate:hover {
     color: #d41111; 
 }
   
-
+/*----------------------Media Query----------------------*/
 @media (max-width: 700px){
 
     .box {
