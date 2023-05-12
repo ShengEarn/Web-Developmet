@@ -1,77 +1,138 @@
-body {
-  margin: 0;
-  padding: 0;
+html {
+  scroll-behavior: smooth;
 }
 
-header {
-  background-color: grey;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+/* Navbar */
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  min-width: 900px;
+  margin: auto;
   padding-left: 25px;
   padding-right: 25px;
-  height: 60px;
+  background-color: black;
+  z-index: 9999;
 }
 
-.logo a {
-  font-size: 25px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.navbar {
   display: flex;
+  align-items: center;
+  padding: 20px 40px;
 }
 
-nav li {
-  margin-right: 20px;
+nav ul li a {
+  position: relative;
 }
 
-nav li:last-child {
-  margin-right: 10px;
+nav ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
   font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
 }
 
-nav a:hover {
-  background-color: darkgrey;
-  color: black;
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7cfc00;
+  text-decoration: none;
+  padding: 20px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 /*Footer Section*/
 footer {
-  background-color: grey;
-  color: black;
+  background-color: #24262b;
+  color: #bbbbbb;
   display: flex;
   flex-wrap: wrap;
-  font-size: 20px;
-  text-align: center;
-  justify-content: space-between;
+  text-align: left;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-section {
-  flex-basis: 25%;
+  flex-basis: 20%;
+}
+
+.footer-section:nth-child(3) {
+  flex-basis: 10%;
 }
 
 .footer-section h3 {
-  margin: 10px;
+  font-size: 22px;
+  margin: 20px;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-section h3::before {
+  content: "";
+  position: absolute;
+  left: calc(50% - 25px);
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
 
 .footer-section p {
-  margin: 5px;
+  margin: 10px;
+  color: #bbbbbb;
+  font-size: 18px;
 }
 
 .footer-section ul {
@@ -81,16 +142,49 @@ footer {
 }
 
 .footer-section li {
-  margin-bottom: 5px;
+  margin: 10px;
+  font-size: 18px;
 }
 
 .footer-section a {
   text-decoration: none;
-  color: black;
+  color: #bbbbbb;
+  transition: all 0.3s ease;
+  display: block;
+  font-size: 18px;
+}
+
+.footer-section a:hover {
+  color: #ffffff;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.footer-col {
+  display: flex;
+  justify-content: left;
+  height: 36px;
+}
+
+.footer-col li {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.footer-col li a img {
+  height: 28px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-col li a:hover img {
+  transform: scale(1.2);
+  height: 33.6px;
 }
 
 .footer-bottom {
   background-color: black;
   color: white;
   width: 100%;
+  text-align: center;
+  padding: 5px;
 }
