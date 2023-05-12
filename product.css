@@ -133,10 +133,11 @@ p {
   flex-basis: 18%;
   min-width: 300px;
   margin: 10px;
+  transition: transform 0.5s;
 }
 
-.col-3-img:hover {
-  opacity: 0.5;
+.col-3:hover {
+  transform: translateY(-5px);
 }
 
 .col-3 img {
@@ -333,7 +334,7 @@ p {
   margin: 0 10px;
 }
 
-#goBackButton{
+#goBackButton {
   width: 40px;
   height: 40px;
   font-size: 30px;
@@ -398,11 +399,16 @@ select:focus {
   width: 100px;
   height: 100px;
   z-index: 9999;
+  transition: transform 0.5s;
 }
 
 .cart img {
   width: 100%;
   height: 100%;
+}
+
+.cart:hover {
+  transform: translateY(-5px);
 }
 
 /*Footer Section*/
@@ -504,83 +510,8 @@ footer {
   padding: 5px;
 }
 
-/* Laptop Devices */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .container {
-    min-width: 0;
-    padding: 0;
-    flex-basis: 15%;
-  }
-
-  .container3 {
-    margin: 20px;
-  }
-
-  .navbar {
-    margin: 0;
-    padding: 20px 0;
-  }
-  nav ul li {
-    margin-right: 5px;
-  }
-  .row {
-    text-align: center;
-  }
-  .col-2 {
-    flex-basis: 100%;
-    margin: 20px;
-  }
-  .col-3 {
-    flex-basis: 20%;
-  }
-  .col-4 {
-    flex-basis: 10%;
-  }
-  .single-product {
-    margin: 40px 40px;
-  }
-
-  .single-product .col-2 img.main {
-    border: none;
-  }
-
-  .single-product .row {
-    text-align: left;
-  }
-  .single-product .col-2 {
-    padding: 20px 0;
-    flex-basis: 100%;
-  }
-  .single-product h1 {
-    font-size: 26px;
-    line-height: 32px;
-  }
-  .single-product h4 {
-    font-size: 20px;
-    margin: 10px 0;
-  }
-  footer {
-    font-size: 25px;
-    text-align: left;
-  }
-  .footer-section {
-    flex-basis: 20%;
-  }
-
-  .footer-section h3,
-  .footer-section p,
-  .footer-section a,
-  .footer-section li {
-    font-size: 15px;
-  }
-
-  .footer-bottom {
-    text-align: center;
-  }
-}
-
 /* Tablet Devices */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* CSS styles for tablet devices */
   .container {
     min-width: 0;
@@ -588,7 +519,7 @@ footer {
     flex-basis: 15%;
   }
 
-  .container2{
+  .container2 {
     margin-top: 73px;
   }
 
@@ -669,11 +600,11 @@ footer {
     font-size: 15px;
   }
 
-  .footer-section:nth-child(3){
+  .footer-section:nth-child(3) {
     flex-basis: 100%;
   }
 
-  .footer-col li a img{
+  .footer-col li a img {
     height: 20px;
   }
 
@@ -691,92 +622,5 @@ footer {
   .container4 th,
   td {
     font-size: 15px;
-  }
-}
-
-/* Mobile Devices */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  body {
-    width: auto;
-    margin: 0 auto;
-  }
-  .container {
-    width: 0;
-    padding: 0;
-    flex-basis: 10%;
-  }
-
-  .container3 {
-    margin: 20px;
-  }
-
-  .navbar {
-    margin: 0;
-    padding: 20px 0;
-  }
-  nav ul li {
-    margin: 0;
-  }
-  nav a {
-    font-size: 10px;
-  }
-  .row {
-    text-align: center;
-  }
-  .col-2 {
-    flex-basis: 100%;
-    margin: 20px;
-  }
-  .col-3 {
-    flex-basis: 20%;
-  }
-  .col-4 {
-    flex-basis: 10%;
-  }
-  .single-product {
-    margin: 0;
-  }
-  .single-product select,
-  option {
-    font-size: 15px;
-    text-align: center;
-  }
-  .single-product .col-2 img.main {
-    border: none;
-  }
-
-  .single-product .row {
-    text-align: left;
-  }
-  .single-product .col-2 {
-    padding: 20px 0;
-    flex-basis: 100%;
-  }
-  .single-product h1 {
-    font-size: 26px;
-    line-height: 32px;
-  }
-  .single-product h4 {
-    font-size: 20px;
-    margin: 10px 0;
-  }
-  .btn,
-  .btn2 {
-    font-size: 15px;
-  }
-  .single-product input {
-    font-size: 15px;
-    margin: 0 10px;
-  }
-
-  footer {
-    font-size: 15px;
-    text-align: center;
-  }
-  .footer-section {
-    flex-basis: 100%;
-  }
-  .footer-bottom {
-    text-align: center;
   }
 }
