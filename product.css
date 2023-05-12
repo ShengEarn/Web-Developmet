@@ -186,6 +186,11 @@ p {
   padding: 20px;
 }
 
+.container5 {
+  margin: 20px;
+  padding: 20px;
+}
+
 .product-row {
   background-color: white;
   border-radius: 20px;
@@ -356,6 +361,17 @@ p {
   border-radius: 20px;
   text-align: center;
   cursor: pointer;
+}
+
+.btn1 {
+  margin: 0 40px;
+  width: 20%;
+  cursor: pointer;
+  border: 2px solid grey;
+  border-radius: 20px;
+  background-color: grey;
+  color: white;
+  font-size: 25px;
 }
 
 .single-product table,
@@ -564,7 +580,8 @@ footer {
     border: none;
   }
   .btn,
-  .btn2 {
+  .btn2,
+  .btn1 {
     font-size: 15px;
   }
   .single-product input {
