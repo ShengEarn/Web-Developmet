@@ -55,7 +55,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love Jungle Workout Studio!";
+        userText = "I love Jungle Workout Studios!";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
