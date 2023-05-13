@@ -63,7 +63,7 @@ function getBotResponse(input) {
         'You could train 2-7 times per week, depending on intensity.  ';
     }
 
-    else if (input == "I love Jungle Workout Studio!") {
+    else if (input == "I love Jungle Workout Studios!") {
         return 'I love you too. ';
     }
 
